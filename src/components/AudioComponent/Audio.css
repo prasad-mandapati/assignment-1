@@ -1,0 +1,115 @@
+  body {
+        font-family: "Inter", sans-serif;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .player {
+        max-width: 500px;
+        /* background: rgb(255, 255, 255); */
+        border-radius: 14px;
+        /* box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+          0 8px 10px -6px rgb(0 0 0 / 0.1);
+          border: 1px solid black; */
+      }
+
+      .player-track-meta {
+        text-align: center;
+      }
+
+      .player-track-meta p {
+        margin: 0;
+        font-size: 20px;
+        color: #0e0e0e;
+        font-weight: 700;
+      }
+
+      .player-track-meta span {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 2px;
+        position: relative;
+        top: 1px;
+        /* color: #a3a3a3; */
+      }
+
+      .player-controls {
+        display: flex;
+        align-items: center;
+      }
+
+      .player-play-btn {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 38px;
+        height: 38px;
+        background-color: white;
+        border-radius: 50%;
+      }
+
+      .icon-container {
+        fill: transparent;
+        stroke: none;
+      }
+
+      .player-play-btn svg {
+        fill:var(--primary-color);
+        position: relative;
+        width: 22px;
+        height: 20px;
+        display: block;
+      }
+
+      .player-timeline {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+      }
+
+      .player-progress {
+        display: flex;
+        position: relative;
+        height: 6px;
+        background: white;
+        border-radius: 25px;
+        margin: 0 5px;
+        flex: 10;
+        flex-basis: 100%;
+        /* overflow: hidden; */
+      }
+
+      .player-progress-filled {
+        height: 6px;
+        background: #0e0e0e;
+        flex: 0;
+        flex-basis: 0%;
+        border-radius: 25px;
+        position: relative;
+      }
+
+      .progress-ball {
+        width: 12px;
+        height: 12px;
+        background-color: var(--primary-color);
+        position: absolute;
+        bottom: -3px;
+        border-radius: 50%;
+        right: -10px;
+      }
+
+      .player-time {
+        padding: 2px 5px;
+      }
+
+      .player-volume-container {
+        width: 15%;
+        display: none;
+      }

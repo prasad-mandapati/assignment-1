@@ -1,0 +1,23 @@
+.search_btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.custome_btn {
+  min-width: 112px;
+}
+
+.custome_form {
+  min-width: 300px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+  .custome_form {
+    min-width: 220px;
+  }
+
+  .custome_btn {
+    min-width: 80px;
+    font-size: 12px;
+  }
+}

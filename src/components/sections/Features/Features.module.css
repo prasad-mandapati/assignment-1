@@ -1,0 +1,74 @@
+.para {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.card1{
+  border: 2px solid var(--primary-color);
+}
+
+.card2{
+  border: 2px solid var(--green-color);
+}
+
+.card3{
+  border: 2px solid var(--red-color);
+}
+
+.card4{
+  border: 2px solid var(--blue-color);
+}
+
+.card1:hover {
+  background-color: var(--primary-color);
+}
+.card2:hover {
+  background-color: var(--green-color);
+}
+.card3:hover {
+  background-color: var(--red-color);
+}
+.card4:hover {
+  background-color: var(--blue-color);
+}
+
+.card:hover {
+  color: white;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.card:hover .btn_custome {
+  color: white;
+  border: 1px solid white;
+}
+
+.card:hover .image {
+  filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.btn_custome {
+  width: 122px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 640px) {
+  .para {
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .para {
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .btn_custome {
+    width: 100%;
+  }
+}

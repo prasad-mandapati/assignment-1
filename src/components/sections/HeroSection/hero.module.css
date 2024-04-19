@@ -1,0 +1,8 @@
+.para_line_height{
+ line-height: 1.8;
+}
+
+.cursor{
+ cursor: pointer;
+ border-color: transparent;
+}
